@@ -6,8 +6,8 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(
-        top: MediaQuery.of(context).padding.top,
+      padding: const EdgeInsets.only(
+        top: 50, //MediaQuery.of(context).padding.top
         left: 25.0,
         right: 25.0,
       ),
@@ -17,7 +17,7 @@ class Header extends StatelessWidget {
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+            children: const [
               Text(
                 'Welcome,',
                 style: TextStyle(
