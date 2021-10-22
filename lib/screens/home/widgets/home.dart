@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_game_store/constants/colors.dart';
 import 'package:flutter_game_store/screens/home/widgets/header.dart';
 import 'package:flutter_game_store/screens/home/widgets/search.dart';
+import 'package:flutter_game_store/screens/home/widgets/categories.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -34,9 +35,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Column(
-              children: const [
+              children: [
                 Header(),
                 Search(),
+                Categories(),
               ],
             ),
           ],
