@@ -6,7 +6,7 @@ class Game {
   num score;
   num download;
   num review;
-  String decs;
+  String desc;
   List<String> imgs;
 
   Game(
@@ -17,7 +17,7 @@ class Game {
     this.score,
     this.download,
     this.review,
-    this.decs,
+    this.desc,
     this.imgs,
   );
 
@@ -31,7 +31,7 @@ class Game {
         4.8,
         382,
         324,
-        'The little spirit',
+        'The little spirit Ori lorem A Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically. Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically. Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically. Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically. Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically. Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically.',
         [
           'assets/images/ori2.jpg',
           'assets/images/ori3.jpg',
@@ -47,7 +47,7 @@ class Game {
         4.7,
         226,
         148,
-        'The little spirit',
+        'The little spirit A Flutter package than allow expand and collapse text dynamically A Flutter package than allow expand and collapse text dynamically',
         [
           'assets/images/rl2.jpg',
           'assets/images/rl3.jpg',

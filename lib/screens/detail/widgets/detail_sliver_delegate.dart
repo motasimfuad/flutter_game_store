@@ -12,10 +12,10 @@ class DetailSliverDelegate extends SliverPersistentHeaderDelegate {
     required this.expandedHeight,
     required this.rounndedContainerHeight,
   });
-
   @override
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
+    // print('${MediaQuery.of(context).padding.top} top');
     return Stack(
       children: [
         Image.asset(
@@ -30,8 +30,8 @@ class DetailSliverDelegate extends SliverPersistentHeaderDelegate {
               Navigator.of(context).pop();
             },
             child: Container(
-              margin: const EdgeInsets.only(
-                top: 40, //MediaQuery.of(context).padding.top
+              margin: EdgeInsets.only(
+                top: 50, //MediaQuery.of(context).padding.top
                 right: 25,
                 left: 25,
               ),

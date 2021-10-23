@@ -34,10 +34,45 @@ class GameHeader extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 5),
+              Row(
+                children: [
+                  _buildIconText(
+                    game.score.toString(),
+                    Icons.star,
+                    Colors.amber,
+                  ),
+                  SizedBox(width: 30),
+                  _buildIconText(
+                    '${game.download.toString()} k',
+                    Icons.file_download_outlined,
+                    Colors.red,
+                  ),
+                ],
+              )
             ],
           ),
         ],
       ),
+    );
+  }
+
+  _buildIconText(String text, IconData icon, Color color) {
+    return Row(
+      children: [
+        Icon(
+          icon,
+          color: color,
+          size: 15,
+        ),
+        SizedBox(width: 3),
+        Text(
+          text,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 12,
+          ),
+        ),
+      ],
     );
   }
 }
