@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_game_store/screens/home/widgets/newest_games.dart';
 import 'package:flutter_game_store/screens/home/widgets/popular_games.dart';
 
 class Categories extends StatelessWidget {
@@ -28,7 +29,7 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Color(0xFFF6F8FF),
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20),
@@ -45,7 +46,7 @@ class Categories extends StatelessWidget {
                 itemBuilder: (_, index) => Column(
                       children: [
                         Container(
-                          padding: EdgeInsets.all(10),
+                          padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             color: categories[index]['color'] as Color,
@@ -75,6 +76,7 @@ class Categories extends StatelessWidget {
           _buildTitle('Popular games'),
           PopularGames(),
           _buildTitle('Newest games'),
+          NewestGames()
         ],
       ),
     );
