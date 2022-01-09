@@ -1,16 +1,10 @@
-# flutter_game_store
+# Flutter Game Store
 
-A new Flutter project.
+Flutter UI project.
 
-## Getting Started
+## Design
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://cdn.dribbble.com/users/4601337/screenshots/14930319/media/e6760a9218391aa04a06b1a88c2cb078.png?compress=1&resize=1200x900&vertical=top">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Design ©️ https://dribbble.com/shots/14930319-Game-Store-App
